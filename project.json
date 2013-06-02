@@ -1,0 +1,35 @@
+{
+  "id": "com.xcodeit.test",
+  "name": "Playground",
+  "version": "1.0",
+  "title": "test",
+  "description": "Description of My Application",
+  "author": {
+    "name": "Roger Booth",
+    "href": "roger_info@booths.org"
+  },
+  "build": {
+    "phonegap": {
+      "enabled": true,
+      "icon": {
+        "src": "icon.png",
+        "role": "default"
+      },
+      "preferences": {
+        "phonegap-version": "2.0.0"
+      },
+      "targets": {
+        "android": false,
+        "ios": {
+          "keyId": 73586
+        },
+        "blackberry": false,
+        "webos": {}
+      },
+      "appId": "com.xcodeit.test"
+    }
+  },
+  "preview": {
+    "top_file": "debug.html"
+  }
+}
