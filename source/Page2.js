@@ -7,7 +7,7 @@ enyo.kind({
 	components:[
 		{kind: "Header", onBtnNextTap:"handleBtnNextBubble", onBtnBackTap:"handleBtnBackBubble"},
 		{kind: "enyo.Scroller", fit: true, touch: true, components: [
-				{name: "main", classes: "nice-padding", allowHtml: true, content: "This is page 2!", tag: "H1"},
+				{name: "main", classes: "nice-padding", allowHtml: true, content: "Page 2 has changed!", tag: "H1"},
 				{kind: "enyo.Image", src: "assets/img/icon.png", style: "width:128px;height:128px"}
 			]},
 		{kind: "Footer"}
