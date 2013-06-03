@@ -17,7 +17,7 @@ enyo.kind({
 		// initialization code goes here
 	},
    handleBtnNextPage:function(inSender,inEvent) {
-      //Broadcast a global signal using enyo.Signal.
-      alert("Should do something");
+      this.bubble("onBtnNextPageTap",inSender);
+        inEvent.preventDefault();
    }
 });
