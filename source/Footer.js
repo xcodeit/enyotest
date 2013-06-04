@@ -9,15 +9,15 @@ enyo.kind({
 	},
 	components: [
 		{kind: "onyx.Toolbar", layoutKind: "FittableColumnsLayout", components: [
-				{kind: "onyx.Button", content: "Go Next Page2", ontap: "handleBtnNextPage", fit: true}
+				{kind: "onyx.Button", content: "Get Things", ontap: "handleBtnGetThings", fit: true}
 			]}
 	],
 	create: function() {
 		this.inherited(arguments);
 		// initialization code goes here
 	},
-   handleBtnNextPage:function(inSender,inEvent) {
-      this.bubble("onBtnNextPageTap",inSender);
+   handleBtnGetThings:function(inSender,inEvent) {
+      this.bubble("onBtnGetThingsTap",inSender);
         inEvent.preventDefault();
    }
 });
