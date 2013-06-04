@@ -6,5 +6,6 @@ enyo.depends(
 	"App.js",
 	"Page2.js",
 	"Header.js",
-	"Footer.js"
+	"Footer.js",
+	"Page3.js"
 );

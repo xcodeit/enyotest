@@ -14,7 +14,8 @@ enyo.kind({
 	],
  
  handleBtnNext: function(inSender,inEvent){
-	alert("Can't go forward")
+	      new Page3().renderInto(document.body);
+
   },
   handleBtnGetThings: function(inSender,inEvent){
       this.$.yql.send();
